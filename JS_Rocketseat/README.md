@@ -1,37 +1,21 @@
 # Exercícios JS Rocketseat
 
 ## Exercícios feitos no curso de JS da Rocketseat
-## <https://app.rocketseat.com.br/node/curso-java-script>
+##### <https://app.rocketseat.com.br/node/curso-java-script>
 
 Exercícios feitos
 =================
 
-<!--ts-->
-    * [Módulo 1](#mod1)
-        * [Exercício 1](#mod1-ex1)
-        * [Exercício 2](#mod1-ex2)
-        * [Exercício 3](#mod1-ex3)
-        * [Exercício 4](#mod1-ex4)
-        * [Exercício 5](#mod1-ex5)
-    * [Módulo 2(#mod2)]
-        * [Exercício 1](#mod2-ex1)
-        * [Exercício 2](#mod2-ex2)
-        * [Exercício 3](#mod2-ex3)
-        * [Exercício 4](#mod2-ex4)
-    * [Módulo 3(#mod3)]
-        * [Aplicação To-Do's](#mod3-appTodo)
-    * [Módulo 4(#mod4)]
-        * [Exercício 1](#mod4-ex1)    
-        * [Exercício 2](#mod4-ex2)    
-        * [Exercício 3](#mod4-ex3)    
-        * [Exercício 3 alterado](#mod4-ex3-alterado)
-<!--te-->
+<p align="center">
+ <a href="#modulo1">Objetivo</a> •
+ <a href="#modulo2">Roadmap</a> • 
+ <a href="#modulo3">Tecnologias</a> • 
+ <a href="#modulo4">Contribuição</a> 
+</p>
 
-<a name="mod1">
+<span id="modulo1"><span>
 
 ## Módulo 1
-
-<a name="mod1-ex1">
 
 ### Exercício 1
 
@@ -54,8 +38,6 @@ O usuário mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros"
 nº 1293.
 ```
 
-<a name="mod1-ex2">
-
 ### Exercício 2
 
 Crie uma função que dado um intervalo (entre x e y) exiba todos os número pares:
@@ -66,8 +48,6 @@ function pares(x, y) {
 }
 pares(32, 321);
 ```
-
-<a name="mod1-ex3">
 
 ### Exercício 3
 
@@ -84,8 +64,6 @@ temHabilidade(skills); // true ou false
 ```
 
 ###### *Dica: para verificar se um vetor contém um valor, utilize o método indexOf()*
-
-<a name="mod1-ex4">
 
 ### Exercício 4
 
@@ -104,8 +82,6 @@ experiencia(anosEstudo);
 // De 3-6 anos: Avançado
 // De 7 acima: Jedi Master
 ```
-
-<a name="mod1-ex5">
 
 ### Exercício 5
 

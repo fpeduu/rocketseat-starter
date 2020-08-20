@@ -40,26 +40,26 @@ nº 1293.
 
 Crie uma função que dado um intervalo (entre x e y) exiba todos os número pares:
 
-```
+~~~javascript
 function pares(x, y) {
  // código aqui
 }
 pares(32, 321);
-```
+~~~
 
 ### Exercício 3
 
 Escreva uma função que verifique se o vetor de habilidades passado possui a habilidade "Javascript"
 e retorna um booleano true/false caso exista ou não.
 
-```
+~~~javascript
 function temHabilidade(skills) {
  // código aqui
 }
 
 var skills = ["Javascript", "ReactJS", "React Native"];
 temHabilidade(skills); // true ou false
-```
+~~~
 
 ###### *Dica: para verificar se um vetor contém um valor, utilize o método indexOf()*
 
@@ -67,7 +67,7 @@ temHabilidade(skills); // true ou false
 
 Escreva uma função que dado um total de anos de estudo retorna o quão experiente o usuário é:
 
-```
+~~~javascript
 function experiencia(anos) {
  // código aqui
 }
@@ -79,13 +79,13 @@ experiencia(anosEstudo);
 // De 1-3 anos: Intermediário
 // De 3-6 anos: Avançado
 // De 7 acima: Jedi Master
-```
+~~~
 
 ### Exercício 5
 
 Dado o seguinte vetor de objetos:
 
-```
+~~~javascript
 var usuarios = [
  {
  nome: "Diego",
@@ -96,7 +96,7 @@ var usuarios = [
  habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
  }
 ];
-```
+~~~
 
 Escreva uma função que produza o seguinte resultado:
 
@@ -123,7 +123,7 @@ aparecer na tela.
 Utilizando o resultado do primeiro desafio, toda vez que o usuário passar o mouse por cima de
 algum quadrado troque sua cor para uma cor aleatória gerada pela função abaixo:
 
-```
+~~~javascript
 function getRandomColor() {
  var letters = "0123456789ABCDEF";
  var color = "#";
@@ -134,7 +134,7 @@ function getRandomColor() {
 }
 
 var newColor = getRandomColor(); // #E943F0
-```
+~~~
 
 ### Exercício 3
 
@@ -142,20 +142,22 @@ A partir do seguinte vetor:
 var nomes = ["Diego", "Gabriel", "Lucas"];
 Preencha uma lista (*`<ul>`*) no HTML com os itens da seguinte forma:
 
+~~~html
 <ul> 
     <li>Diego
     <li>Gabriel
     <li>Lucas
 </ul>
+~~~
 
 ### Exercício 4
 
 Seguindo o resultado do exercício anterior adicione um input em tela e um botão como a seguir:
 
-```
+~~~javascript
 <input type="text" name="nome">
 <button onClick="adicionar()">Adicionar</button>
-```
+~~~
 
 Ao clicar no botão, a função adicionar() deve ser disparada adicionando um novo item a lista de
 nomes baseado no nome preenchido no input e renderizando o novo item em tela juntos aos
@@ -183,7 +185,7 @@ Crie uma função que recebe a idade de um usuário e retorna uma Promise que de
 segundos retornará se usuário é maior ou não que 18 anos. Se o usuário ter mais que 18 anos de
 idade o resultado deve cair no .then, caso contrário, no .catch
 
-```
+~~~javascript
 function checaIdade(idade) {
  // Retornar uma promise
 }
@@ -194,7 +196,7 @@ checaIdade(20)
  .catch(function() {
  console.log("Menor que 18");
  });
-```
+~~~
 
 ### Exercício 2
 
@@ -206,14 +208,14 @@ URL de exemplo: *https://api.github.com/users/diego3g/repos*
 
 Basta alterar "diego3g" pelo nome do usuário.
 
-```
+~~~javascript
 <input type="text" name="user">
 <button onclick="">Adicionar</button>
-```
+~~~
 
 Depois de preencher o input e adicionar, a seguinte lista deve aparecer abaixo:
 
-```
+~~~html
 <ul>
  <li>repo1</li>
  <li>repo2</li>
@@ -221,16 +223,16 @@ Depois de preencher o input e adicionar, a seguinte lista deve aparecer abaixo:
  <li>repo4</li>
  <li>repo5</li>
 </ul>
-```
+~~~
 
 ### Exercício 3
 
 A partir do resultado do exemplo anterior adicione um indicador de carregamento em tela no lugar
 da lista apenas enquanto a requisição estiver acontecendo:
 
-```
+~~~html
 <li>Carregando...</li>
-```
+~~~
 
 Além disso, adicione uma mensagem de erro em tela caso o usuário no Github não exista.
 
@@ -240,14 +242,36 @@ Além disso, adicione uma mensagem de erro em tela caso o usuário no Github nã
 
 Com o resultado do exercício anterior, adicionei na aplicação a possibilidade de limpar a pesquisa, ao clicar em uma tag `<a>` a e o texto de *noResults*, que aparece quando o usuário pesquisado não é encontrado.
 
-#### App Base + Limpar Pesquisa
+#### Código adicionado
 
-![alt text](https://github.com/fpeduu/rocketseat-starter/blob/master/JS_Rocketseat/images/appGithubRepo.png)
+~~~javascript
+...
 
-#### Pesquisando um usuário
+const listElement = document.querySelector("#app ul")
 
-![alt text](https://github.com/fpeduu/rocketseat-starter/blob/master/JS_Rocketseat/images/appGithubRepoQuery.png)
+...
 
-#### Usuário não encontrado
+function cleanQuery() {
+    listElement.innerHTML = ""
+}
 
-![alt text](https://github.com/fpeduu/rocketseat-starter/blob/master/JS_Rocketseat/images/appGithubRepoNoResults.png)
+...
+
+function userQuery() {
+    ...
+
+    return axios.get(...)
+    .then(response => {
+        ...
+    })
+    .catch(error => {
+        ...
+        const noResult = document.createElement("li")
+        const noResultContent = document.createTextNode("Nenhum resultado encontrado!")
+
+        noResult.appendChild(noResultContent)
+        listElement.appendChild(noResult)
+        ...
+    })
+}
+~~~

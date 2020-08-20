@@ -242,12 +242,12 @@ Com o resultado do exercício anterior, adicionei na aplicação a possibilidade
 
 #### App Base + Limpar Pesquisa
 
-![alt text](https://github.com/fpeduu/rocketseat-starter/blob/master/JS_Rocketseat/images/appTodos.png)
+![alt text](https://github.com/fpeduu/rocketseat-starter/blob/master/JS_Rocketseat/images/appGithubRepo.png)
 
 #### Pesquisando um usuário
 
-![alt text](https://github.com/fpeduu/rocketseat-starter/blob/master/JS_Rocketseat/images/appTodosQuery.png)
+![alt text](https://github.com/fpeduu/rocketseat-starter/blob/master/JS_Rocketseat/images/appGithubRepoQuery.png)
 
 #### Usuário não encontrado
 
-![alt text](https://github.com/fpeduu/rocketseat-starter/blob/master/JS_Rocketseat/images/appTodosNoResults.png)
+![alt text](https://github.com/fpeduu/rocketseat-starter/blob/master/JS_Rocketseat/images/appGithubRepoNoResults.png)

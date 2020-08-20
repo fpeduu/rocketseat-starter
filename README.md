@@ -1,1 +1,1 @@
-# Rocketseat-Starter
+# Rocketseat Starter Courses

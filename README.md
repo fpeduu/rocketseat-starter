@@ -5,10 +5,10 @@
 <a href="https://app.rocketseat.com.br/starter">Cursos</a>
 </h4>
 
-<p>
-: - <a href="https://github.com/fpeduu/rocketseat-starter/tree/master/JavaScript">JavaScript (Concluído)</a> :
-: - <a>ES6 (Em progresso)</a> :
-: - <a>NodeJS (A ser feito)</a> :
-: - <a>ReactJS (A ser feito)</a> :
-: - <a>React Native (A ser feito) </a> :
+<p align="initial">
+- <a href="https://github.com/fpeduu/rocketseat-starter/tree/master/JavaScript">JavaScript</a> (Concluído)
+- <a>ES6 (Em progresso)</a> 
+- <a>NodeJS (A ser feito)</a> 
+- <a>ReactJS (A ser feito)</a> 
+- <a>React Native (A ser feito) </a> 
 </p>

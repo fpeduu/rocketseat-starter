@@ -140,6 +140,8 @@ A partir do seguinte vetor:
 var nomes = ["Diego", "Gabriel", "Lucas"];
 Preencha uma lista (*`<ul>`*) no HTML com os itens da seguinte forma:
 
-● Diego
-● Gabriel
-● Lucas
+<ul> 
+    <li>Diego<li>
+    <li>Gabriel<li>
+    <li>Lucas<li>
+<ul>

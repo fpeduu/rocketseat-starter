@@ -1,9 +1,9 @@
 # Cursos Starter da Rocketseat
 ## Meus cursos feitos e seus respectivos exercícios
 
-<h6 align="center">
+<h4>
 <a href="https://app.rocketseat.com.br/starter">Cursos</a>
-<h6>
+</h4>
 
 :<p>
 * <a href="https://github.com/fpeduu/rocketseat-starter/tree/master/JavaScript">JavaScript (Concluído)</a>

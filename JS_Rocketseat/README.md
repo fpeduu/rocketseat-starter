@@ -105,3 +105,41 @@ O Gabriel possui as habilidades: VueJS, Ruby on Rails, Elixir
 ```
 
 ###### *Dica: Para percorrer um vetor você deve utilizar a sintaxe for...of e para unir valores de um array com um separador utilize o join.*
+
+<span id="modulo2"><span>
+
+## Módulo 2
+
+### Exercício 1
+
+Crie um botão que ao ser clicado cria um novo elemento em tela com a forma de um quadrado
+vermelho com 100px de altura e largura. Sempre que o botão for clicado um novo quadrado deve
+aparecer na tela.
+
+### Exercício 2
+
+Utilizando o resultado do primeiro desafio, toda vez que o usuário passar o mouse por cima de
+algum quadrado troque sua cor para uma cor aleatória gerada pela função abaixo:
+
+```
+function getRandomColor() {
+ var letters = "0123456789ABCDEF";
+ var color = "#";
+ for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+ }
+ return color;
+}
+
+var newColor = getRandomColor(); // #E943F0
+```
+
+### Exercício 3
+
+A partir do seguinte vetor:
+var nomes = ["Diego", "Gabriel", "Lucas"];
+Preencha uma lista (<h6>*<ul>*<h6>) no HTML com os itens da seguinte forma:
+
+● Diego
+● Gabriel
+● Lucas

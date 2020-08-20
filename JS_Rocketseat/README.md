@@ -144,4 +144,3 @@ Preencha uma lista (*`<ul>`*) no HTML com os itens da seguinte forma:
     <li>Diego
     <li>Gabriel
     <li>Lucas
-<ul>

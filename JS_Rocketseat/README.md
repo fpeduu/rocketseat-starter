@@ -3,14 +3,14 @@
 ## Exercícios feitos no curso de JS da Rocketseat
 ##### <https://app.rocketseat.com.br/node/curso-java-script>
 
-Exercícios feitos
+Módulos
 =================
 
 <p align="center">
- <a href="#modulo1">Objetivo</a> •
- <a href="#modulo2">Roadmap</a> • 
- <a href="#modulo3">Tecnologias</a> • 
- <a href="#modulo4">Contribuição</a> 
+ <a href="#modulo1">Módulo 1</a> •
+ <a href="#modulo2">Módulo 2</a> • 
+ <a href="#modulo3">Módulo 3</a> • 
+ <a href="#modulo4">Módulo 4</a> 
 </p>
 
 <span id="modulo1"><span>

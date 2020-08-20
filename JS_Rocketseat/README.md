@@ -141,7 +141,7 @@ var nomes = ["Diego", "Gabriel", "Lucas"];
 Preencha uma lista (*`<ul>`*) no HTML com os itens da seguinte forma:
 
 <ul> 
-    <li>Diego<li>
-    <li>Gabriel<li>
-    <li>Lucas<li>
+    <li>Diego
+    <li>Gabriel
+    <li>Lucas
 <ul>

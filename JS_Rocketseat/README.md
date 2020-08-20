@@ -3,9 +3,6 @@
 ## Exercícios feitos no curso de JS da Rocketseat
 ##### <https://app.rocketseat.com.br/node/curso-java-script>
 
-Módulos
-=================
-
 <p align="center">
  <a href="#modulo1">Módulo 1</a> •
  <a href="#modulo2">Módulo 2</a> • 

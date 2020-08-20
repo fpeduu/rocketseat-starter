@@ -13,6 +13,7 @@
 <span id="modulo1"><span>
 
 ## Módulo 1
+#### Introdução Javascript
 
 ### Exercício 1
 
@@ -109,6 +110,7 @@ O Gabriel possui as habilidades: VueJS, Ruby on Rails, Elixir
 <span id="modulo2"><span>
 
 ## Módulo 2
+#### Manipulando a DOM
 
 ### Exercício 1
 
@@ -158,3 +160,15 @@ Seguindo o resultado do exercício anterior adicione um input em tela e um botã
 Ao clicar no botão, a função adicionar() deve ser disparada adicionando um novo item a lista de
 nomes baseado no nome preenchido no input e renderizando o novo item em tela juntos aos
 demais itens anteriores. Além disso, o conteúdo do input deve ser apagado após o clique.
+
+<span id="modulo3"><span>
+
+## Módulo 3
+#### App de To-do's
+
+## Aplicação
+
+Aplicação que permite a adição, visualização e exclusão de elementos de uma lista (*To-do List*), assim como o armazenamento de tais elementos no *local storage* do usuário.
+
+
+

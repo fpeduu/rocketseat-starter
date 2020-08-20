@@ -1,6 +1,7 @@
 # Exercícios JS Rocketseat
 
-## Exercícios feitos no curso de JS da Rocketseat ###### <https://app.rocketseat.com.br/node/curso-java-script>
+## Exercícios feitos no curso de JS da Rocketseat
+<h6 align="center"><https://app.rocketseat.com.br/node/curso-java-script><h6>
 
 <p align="center">
  <a href="#modulo1">Módulo 1</a> •

@@ -168,6 +168,6 @@ demais itens anteriores. Além disso, o conteúdo do input deve ser apagado apó
 
 ## Aplicação
 
-Aplicação que permite a adição, visualização e exclusão de elementos de uma lista (*To-do List*), assim como o armazenamento de tais elementos no *local storage* do usuário.
+Aplicação que permite a adição, visualização e exclusão de elementos de uma lista (*todos_list*), assim como o armazenamento de tais elementos no *local storage* do usuário.
 
-![alt text](https://github.com/fpeduu/rocketseat-starter/blob/master/JS_Rocketseat/images/Screenshot_1.png)
+![alt text](https://raw.githubusercontent.com/fpeduu/rocketseat-starter/blob/master/JS_Rocketseat/images/Screenshot_1.png)

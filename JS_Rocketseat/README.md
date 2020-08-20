@@ -235,3 +235,19 @@ da lista apenas enquanto a requisição estiver acontecendo:
 Além disso, adicione uma mensagem de erro em tela caso o usuário no Github não exista.
 
 ###### Dica: Quando o usuário não existe, a requisição irá cair no .catch com código de erro 404.
+
+### Exercício 3 alterado
+
+Com o resultado do exercício anterior, adicionei na aplicação a possibilidade de limpar a pesquisa, ao clicar em uma tag `<a>` a e o texto de *noResults*, que aparece quando o usuário pesquisado não é encontrado.
+
+#### App Base + Limpar Pesquisa
+
+![alt text](https://github.com/fpeduu/rocketseat-starter/blob/master/JS_Rocketseat/images/appTodos.png)
+
+#### Pesquisando um usuário
+
+![alt text](https://github.com/fpeduu/rocketseat-starter/blob/master/JS_Rocketseat/images/appTodosQuery.png)
+
+#### Usuário não encontrado
+
+![alt text](https://github.com/fpeduu/rocketseat-starter/blob/master/JS_Rocketseat/images/appTodosNoResults.png)

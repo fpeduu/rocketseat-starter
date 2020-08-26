@@ -378,4 +378,4 @@ Porém, quando não encontra o repositório digitado pelo usuário, exibe um *al
 ###### Repositório não encontrado
 ![](https://github.com/fpeduu/rocketseat-starter/blob/master/ES6/images/repoNotFound.png)
 
-##### Obs.: O script importado pelo "index.html" é o bundle.js, gerado pelo *Babel*. Os arquivos .js originais estão na pasta js_base do módulo 4.
+##### Obs.: O script importado pelo "index.html" é o "bundle.js", gerado pelo *Babel*. Os arquivos .js originais estão na pasta "js_base" do módulo 4.

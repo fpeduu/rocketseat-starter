@@ -362,20 +362,20 @@ buscaUsuario('diego3g');
 
 A aplicação, feita com EcmaScript 6, é composta por uma barra de digitação e um botão, que, quando clicado, procura na api do github pela seguinte url: "https://api.github.com/repos/${inputDoUsuario*}"
 
-![](https://github.com/fpeduu/rocketseat-starter/blob/master/ES6/images/appBase.png)
 ##### Aplicação
+![](https://github.com/fpeduu/rocketseat-starter/blob/master/ES6/images/appBase.png)
 
 Quando encontra o input do usuário - que deve ser feito no formato "user/repository" - exibe a imagem do proprietário do repositório ao lado dos título, descrição e link do mesmo. Enquanto a busca é feita, exibe a mensagem "Carregando...".
 
-![](https://github.com/fpeduu/rocketseat-starter/blob/master/ES6/images/loadingQuery.png)
 ##### Aplicação buscando repositório
+![](https://github.com/fpeduu/rocketseat-starter/blob/master/ES6/images/loadingQuery.png)
 
-![](https://github.com/fpeduu/rocketseat-starter/blob/master/ES6/images/successfulQuery.png)
 ##### Repositório encontrado
+![](https://github.com/fpeduu/rocketseat-starter/blob/master/ES6/images/successfulQuery.png)
 
 Porém, quando não encontra o repositório digitado pelo usuário, exibe um *alert()* com a mensagem "Repositório não encontrado."
 
-![](https://github.com/fpeduu/rocketseat-starter/blob/master/ES6/images/repoNotFound.png)
 ##### Repositório não encontrado
+![](https://github.com/fpeduu/rocketseat-starter/blob/master/ES6/images/repoNotFound.png)
 
 ##### Obs.: O script importado pelo "index.html" é o bundle.js, gerado pelo *Babel*. Os arquivos .js originais estão na pasta js_base do módulo 4.

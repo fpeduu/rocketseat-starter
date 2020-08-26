@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repositories</title>
+
+    <style>
+        input {
+            width: 200px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            font: sans-serif;
+        }
+
+        li {
+            clear: both;
+            margin-top: 20px;
+        }
+
+        img {
+            float: left;
+            margin-right: 10px;
+            width: 70px;
+        }
+
+        strong {
+            font-size: 20px;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <form id="repo-form">
+        <input type="text" placeholder="Digite somente 'user/repository'." id="repo-input">
+        <button type="submit">Adicionar</button>
+    </form>
+    <ul id="repo-list">
+        <!-- Espaço para aparecimento dos repositórios. -->
+    </ul>
+
+    <script src="./bundle.js"></script>    
+</body>
+</html>

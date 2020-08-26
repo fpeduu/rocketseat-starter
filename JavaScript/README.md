@@ -172,7 +172,7 @@ demais itens anteriores. Além disso, o conteúdo do input deve ser apagado apó
 
 Aplicação que permite a adição, visualização e exclusão de elementos de uma lista (*todos_list*), assim como o armazenamento de tais elementos no *local storage* do usuário.
 
-<img src="./images/todos-app.png" alt="App To-Do's">
+<img src="./images/todosApp.png" alt="App To-Do's">
 
 <span id="modulo4"><span>
 

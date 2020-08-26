@@ -362,9 +362,8 @@ buscaUsuario('diego3g');
 
 A aplicação, feita com EcmaScript 6, é composta por uma barra de digitação e um botão, que, quando clicado, procura na api do github pela seguinte url:
 
-´´´
-https://api.github.com/repos/${inputDoUsuario*}
-´´´
+"https://api.github.com/repos/${inputDoUsuario*}"
+
 ![]()
 
 Quando encontra o input do usuário - que deve ser feito no formato "user/repository" - exibe a imagem do proprietário do repositório ao lado dos título, descrição e link do mesmo. Enquanto a busca é feita, exibe a mensagem "Carregando...".

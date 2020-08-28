@@ -17,7 +17,7 @@
 Montar uma aplicação que permita a checagem e alteração dos dados de uma lista de produtos, por meio dos métodos *GET*, *POST*, *PUT* e *DELETE*.
 
 ### Features
-###### Obs.: Algumas das imagens apresentadas foram capturadas no  _Insomnia Core_ (Testador utilizado na API)
+##### Obs.: Algumas das imagens apresentadas foram capturadas no  _Insomnia Core_ (Testador utilizado na API)
 
 #### Listagem dos produtos
 
@@ -26,7 +26,7 @@ Acessada por meio de "*url_base* (localhost:5000) + */products*", permite a visu
 ###### Lista de produtos (GET "/products")
 ![](https://github.com/fpeduu/rocketseat-starter/blob/master/NodeJS/images/api.png)
 
-A página base é a primeira, mas pode-se ter acesso as outras por meio da "*url de listagem* + ?page=numeroDaPagina".
+A página base é a primeira, mas pode-se ter acesso a outras por meio da "*url de listagem* + ?page=numeroDaPagina".
 
 ###### Página 2 da lista de produtos (GET "/products?page=2")
 ![](https://github.com/fpeduu/rocketseat-starter/blob/master/NodeJS/images/apiPage2.png)
@@ -42,12 +42,8 @@ Pode ser acessada por meio da "*url de listagem* (url_base + /products) + /*id d
 
 Feita por meio do método *POST*, deve enviar um corpo em *JSON* com os dados para a criação de um novo produto. Retorna os dados do produto criado.
 
-Criação:
-
 ###### Criando produto (POST "/products" + JSON body)
 ![](https://github.com/fpeduu/rocketseat-starter/blob/master/NodeJS/images/apiCreatingProduct.png)
-
-Resultado:
 
 ###### Resultado da criação de produto
 ![](https://github.com/fpeduu/rocketseat-starter/blob/master/NodeJS/images/apiCreatedProduct.png)
@@ -56,12 +52,8 @@ Resultado:
 
 Com o método *PUT*, acompanha o id do produto na url e carrega consigo um corpo JSON com os dados do produto a serem alterados.
 
-Alteração:
-
 ###### Alterando descrição do produto criado (PUT "/products/5f494b737d00852ca48c6e0d" + JSON body)
 ![](https://github.com/fpeduu/rocketseat-starter/blob/master/NodeJS/images/apiChangingProductDescription.png)
-
-Resultado:
 
 ###### Resultado da alteração de descrição
 ![](https://github.com/fpeduu/rocketseat-starter/blob/master/NodeJS/images/apiChangedProductDescription.png)

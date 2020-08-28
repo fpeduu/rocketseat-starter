@@ -21,22 +21,22 @@ Montar uma aplicação que permita a checagem e alteração dos dados de uma lis
 
 #### Listagem dos produtos
 
-Acessada por meio da *url_base* (localhost:5000) + */products*, permite a visualização de todos os produtos cadastrados. Tal visualização foi paginada por meio do módulo "mongoose-paginate", dividindo-a em páginas de 10 produtos, cada.
+Acessada por meio de "*url_base* (localhost:5000) + */products*", permite a visualização de todos os produtos cadastrados. Tal visualização foi paginada por meio do módulo "mongoose-paginate", dividindo-a em páginas de 10 produtos, cada.
 
 ###### Lista de produtos (GET "/products")
-![]()
+![](https://github.com/fpeduu/rocketseat-starter/blob/master/NodeJS/images/api.png)
 
-A página base é a primeira, mas pode-se ter acesso as outras por meio da *url de listagem* + "?page=numeroDaPagina".
+A página base é a primeira, mas pode-se ter acesso as outras por meio da "*url de listagem* + ?page=numeroDaPagina".
 
 ###### Página 2 da lista de produtos (GET "/products?page=2")
-![]()
+![](https://github.com/fpeduu/rocketseat-starter/blob/master/NodeJS/images/apiPage2.png)
 
 #### Pesquisa por um produto específico (Via ID)
 
-Pode ser acessada por meio da *url de listagem* (url_base + /products) + /*id do produto* (Pode ser visualizado na listagem dos produtos) e exibe os dados de um produto específico.
+Pode ser acessada por meio da "*url de listagem* (url_base + /products) + /*id do produto*" (Pode ser visualizado na listagem dos produtos) e exibe os dados de um produto específico.
 
 ###### Visualização do produto "Blacklist" (GET "/products/5f490776e14afb37d82eca32")
-![]()
+![](https://github.com/fpeduu/rocketseat-starter/blob/master/NodeJS/images/apiQuery.png)
 
 #### Criação de novos produtos
 
@@ -45,12 +45,12 @@ Feita por meio do método *POST*, deve enviar um corpo em *JSON* com os dados pa
 Criação:
 
 ###### Criando produto (POST "/products" + JSON body)
-![]()
+![](https://github.com/fpeduu/rocketseat-starter/blob/master/NodeJS/images/apiCreatingProduct.png)
 
 Resultado:
 
 ###### Resultado da criação de produto
-![]()
+![](https://github.com/fpeduu/rocketseat-starter/blob/master/NodeJS/images/apiCreatedProduct.png)
 
 #### Alteração dos dados de um produto (Feita via ID)
 
@@ -59,22 +59,22 @@ Com o método *PUT*, acompanha o id do produto na url e carrega consigo um corpo
 Alteração:
 
 ###### Alterando descrição do produto criado (PUT "/products/5f494b737d00852ca48c6e0d" + JSON body)
-![]()
+![](https://github.com/fpeduu/rocketseat-starter/blob/master/NodeJS/images/apiChangingProductDescription.png)
 
 Resultado:
 
 ###### Resultado da alteração de descrição
-![]()
+![](https://github.com/fpeduu/rocketseat-starter/blob/master/NodeJS/images/apiChangedProductDescription.png)
 
 #### Deleção de produto (Feita via ID)
 
 Usa o método *DELETE* e apaga o produto cujo id acompanha a url. Apenas retorna que obteve sucesso (Código 200).
 
 ###### Deletando o produto criado (DELETE "/products/5f494b737d00852ca48c6e0d")
-![]()
+![](https://github.com/fpeduu/rocketseat-starter/blob/master/NodeJS/images/apiDeletingProduct.png)
 
 ###### Resultado da deleção
-![]()
+![](https://github.com/fpeduu/rocketseat-starter/blob/master/NodeJS/images/apiDeletedProduct.png)
 
 <span id="tecnologias"></span>
 

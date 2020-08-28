@@ -50,7 +50,7 @@ Feita por meio do método *POST*, deve enviar um corpo em *JSON* com os dados pa
 
 #### Alteração dos dados de um produto (Feita via ID)
 
-Com o método *PUT*, acompanha o id do produto na url e carrega consigo um corpo JSON com os dados do produto a serem alterados.
+Com o método *PUT*, acompanha o id do produto na url e carrega consigo um corpo JSON com os dados do produto a serem alterados. Retorna o produto alterado.
 
 ###### Alterando descrição do produto criado (PUT "/products/5f494b737d00852ca48c6e0d" + JSON body)
 ![](https://github.com/fpeduu/rocketseat-starter/blob/master/NodeJS/images/apiChangingProductDescription.png)
